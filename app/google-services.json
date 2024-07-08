@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "804436685802",
+    "project_id": "projet-integre-41595",
+    "storage_bucket": "projet-integre-41595.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804436685802:android:9012b399ea56a9787ef893",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8Br969rdoInprDhZXk8OJz8YJLxsvZCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

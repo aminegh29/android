@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Add this inside your RelativeLayout -->
+
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/backIcon"
+        android:src="@drawable/back"
+        android:contentDescription="Back"
+        android:onClick="onBackClick"
+        android:padding="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+    <ListView
+        android:id="@+id/list_view_complaints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/complaintTextView"/>
+    <TextView
+        android:id="@+id/complaintTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complaints"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textSize="28dp"
+        android:padding="28dp"
+        android:background="@color/my_primary"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/complaintTextView"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_complaints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Complaints TextViews will be added here programmatically -->
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

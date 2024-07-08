@@ -1,0 +1,43 @@
+<!-- res/layout/item_classroom.xml -->
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="5"
+    android:rowCount="1"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/buildingTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="Building:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/floorTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="Floor:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/numberTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="Number:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/typeTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="Type:"
+        android:textStyle="bold"/>
+
+
+</GridLayout>

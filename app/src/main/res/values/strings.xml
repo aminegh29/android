@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">prijetIN</string>
+    <string name="building_text">Building: %1$s</string>
+    <string name="floor_text">Floor: %1$s</string>
+    <string name="number_text">Number: %1$s</string>
+    <string name="type_text">Type: %1$s</string>
+
+</resources>

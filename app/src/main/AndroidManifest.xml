@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project"
+        tools:targetApi="31">
+        <activity
+            android:name=".Admin.ComplaintActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ReservationActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="prof.NotificationProf"
+            android:exported="false" />
+        <activity
+            android:name=".Securite.ComplaintSec"
+            android:exported="false" />
+        <activity
+            android:name="prof.AssignedRooms"
+            android:exported="false" />
+        <activity
+            android:name=".Securite.Notification"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name="prof.Reservation_prof"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.admin_classrooms"
+            android:exported="false" />
+        <activity
+            android:name="prof.ComplaintProf"
+            android:exported="false" />
+        <activity
+            android:name=".authentification"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Activité ForgotPassActivity -->
+        <!-- Activité AdminDashboardActivity -->
+        <activity
+            android:name=".Securite.Securite"
+            android:exported="true" />
+        <activity
+            android:name=".Securite.Securite_edit"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.Admin"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.AdminUser"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.AdminAddUser"
+            android:exported="true" />
+        <activity
+            android:name="prof.Professor"
+            android:exported="true" />
+        <activity
+            android:name="prof.ProfessorEdit"
+            android:exported="true" />
+    </application>
+
+</manifest>
